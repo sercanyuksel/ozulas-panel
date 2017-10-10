@@ -1,0 +1,46 @@
+Ön Kurulumlar(gerekli ise)
+	Xammp : https://www.apachefriends.org/tr/index.html
+	
+Öncelikle kurulumu yaptýktan sonra xampp'ý açýyoruz.Phpmyadmin ve Apache'yi startlýyoruz. Localhost/phpmyadmin adresine gidiyoruz.
+Ozulas adýnda yeni bir veritabaný yaratýyoruz.
+Daha sonra ozulas veritabaný seçiyoruz.
+Üst menüdeki içe aktara basýyoruz ve dosya olarak klasördeki ozulas.sql i seçiyoruz.Alttan git butonuna basýyoruz.
+
+Attýgým Klasörü xampp yükledikten sonra C:/xampp/htdocs içine atýyoruz.
+Siteye ulaþmak için localhost/ozulas linkini tarayýcýya giriyoruz.
+Login ekraný açýlacak.Kullanýcý:sercan Þifre:123
+
+Sol menüdeki talepler kýsmý için linkler verildi.Link yapýsý öyle olacak inceleyebilirsiniz.
+Yine indirdiðiniz klasörde talepler adýnda bir klasör var içerisinde 4 adet php dosyamýz var.
+	- Talepler.php (Taleplerin Görüntülendiði Dosya)
+	- Talep-Ekle.php (Talep Ekleme ile Ýlgili Dosya)
+	- Talep-Duzenle.php (Talep Ýncelemek ve Düzenlemek ile Ýlgili Dosya)
+	- Talep-Sil.php (Talep silme ile Ýlgili Dosya)
+
+Ýlk olarak bu þekilde arýzalar,kullanýcýlar,arýza tipleri,þöförler gibi klasörleri oluþturup her birinin içine bu 4 dosyamýzý oluþturuyoruz.
+Örnek
+	Arýza Tipleri Klasörü
+		- Arýza Tipleri.php
+		- Arýza Tipi Ekle.php
+		- Arýza Tipi Duzenle.php
+		- Arýza Tipi Sil.php
+		
+Ekle ve Duzenle Php dosyalarý form içericekler.Talep-ekle ve Talep-duzenle'den bakabilirsiniz.
+Arýza tipleri,þöferler,arýzalar gibi sayfalar tablo içericekler.Bkz:Talepler.php
+
+En baþta inceleyip kavramýnýz gerek 2 sayfa var.
+	-include/side.php -> Bu sayfada link yapýmýzýn nasýl olduðunu göreceksiniz.
+	-index.php -> Bu sayfada switch iþlemi ile linklerimizi nasýl render ettiðimizi göreceksiniz.
+
+Ekle ve Duzenle dosyalarý oluþturmak için talep-ekle ve talep-duzenle'yi kopyalayýn,adlarýný deðiþtirip içeriðini deðiþtirin.Modele uygun olarak.
+Tüm kayýtlarý listelemek için talepler.php'yi koplayaýp düzenleyin.
+
+Þimdilik Ýlerlememiz Böyle olacak.
+  1.Sidebar için bir kýsým seçiyorsunuz.Örneðin Arýzalar kýsmýný seçtiniz.
+  2.Arýzalar diye bir klasör oluþturuyorunuz root dizine(ozulas klasörüne).
+  3.Belirtilen 4 php dosyasýný ekliyorsunuz.Taleplerden kopyalabilirsiniz.
+  4.Formlarý ve Tablolarý Arýzalar için hangi bilgiler tutulucaksa ona göre düzenliyorsunuz.
+  
+Bu iþlemler bittikten sonra týklanýnca ekleme,üzerine alma vb. iþlemleri yapacaðýz.Öncelikle formlarý ve tablolarý oluþturacaðýz.
+
+Sorular için whatsapp/proje ekibi
