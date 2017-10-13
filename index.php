@@ -25,47 +25,6 @@ if(!$_SESSION['user'])
                 <!-- Breadcrumb Menu-->
                
             </ol>
-<?php
-$page=@$_GET['islem'];
-switch($page){
-    
-    case 'talepler';
-    include 'talepler/talepler.php';
-    break;
-    
-    case 'talep-ekle';
-    include 'talepler/talep-ekle.php';
-    break;
-
-    case 'talep-sil';
-    include 'talepler/talep-sil.php';
-    break;
-    
-    case 'talep-duzenle';
-    include 'talepler/talep-duzenle.php';
-    break;
-
-    default;
-    include 'talepler/talepler.php';
-    break;
-    }
-?>    
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         </main>
     </div>
