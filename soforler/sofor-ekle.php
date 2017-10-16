@@ -1,5 +1,5 @@
 <?php
-
+// post varsa
 if($_POST)
 {
     $ad=$_POST['ad'];
