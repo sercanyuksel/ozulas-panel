@@ -2,6 +2,7 @@
 // post varsa
 //selam
 //ceren keşke bir işi becerebilse
+//dinçer neden malak
 if($_POST)
 {
     $ad=$_POST['ad'];
