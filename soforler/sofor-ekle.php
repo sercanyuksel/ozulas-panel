@@ -1,5 +1,6 @@
 <?php
 // post varsa
+//selam
 if($_POST)
 {
     $ad=$_POST['ad'];
