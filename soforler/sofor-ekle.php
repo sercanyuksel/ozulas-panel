@@ -1,6 +1,7 @@
 <?php
 // post varsa
 //selam
+//ceren keşke bir işi becerebilse
 if($_POST)
 {
     $ad=$_POST['ad'];
