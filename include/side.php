@@ -56,10 +56,10 @@
                     <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i>Evrak Kayıt</a>
                         <ul class="nav-dropdown-items">
                             <li class="nav-item">
-                                <a class="nav-link" href="icons-font-awesome.html"><i class="icon-star"></i>Evrak Ekle</a>
+                                <a class="nav-link" href="index.php?islem=evrak-ekle"><i class="icon-star"></i>Evrak Ekle</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="icons-simple-line-icons.html"><i class="icon-star"></i>Evraklar</a>
+                                <a class="nav-link" href="index.php?islem=evraklar"><i class="icon-star"></i>Evraklar</a>
                             </li>
                         </ul>
                     </li>

@@ -61,6 +61,21 @@ switch($page){
     include 'soforler/sofor-duzenle.php';
     break;
 
+    case 'evraklar';
+    include 'evraklar/evraklar.php';
+    break;
+    
+    case 'evrak-ekle';
+    include 'evraklar/evrak-ekle.php';
+    break;
+
+    case 'evrak-sil';
+    include 'evraklar/evrak-sil.php';
+    break;
+    
+    case 'evrak-duzenle';
+    include 'evraklar/evrak-duzenle.php';
+    break;
     default;
     include 'talepler/talepler.php';
     break;
